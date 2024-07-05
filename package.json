@@ -14,7 +14,12 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "nodemon": "^3.1.4",
+    "p-limit": "^6.0.0",
     "pupeteer": "^0.0.1",
-    "puppeteer": "^22.12.1"
+    "puppeteer": "^22.12.1",
+    "puppeteer-cluster": "^0.24.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "winston": "^3.13.0"
   }
 }
