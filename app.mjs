@@ -39,7 +39,7 @@ const userAgents = [
 ];
 
 const randomDelay = () => Math.floor(Math.random() * 1000) + 500;
-const concurrencyLimit = 5; // Increase concurrency limit
+const concurrencyLimit = 10; // Increase concurrency limit
 const limit = pLimit(concurrencyLimit);
 
 const scrapeJobDetails = async (browser, jobUrl) => {
